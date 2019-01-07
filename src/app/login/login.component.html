@@ -1,24 +1,28 @@
-<div class="jumbotron " style="background-color: deepskyblue"> 
-    <h2>Login</h2>
-    <p>This app comes with very innovative features. Login to experience some of it.</p>
-      </div>
+<div class="jumbotron " style="background-color: deepskyblue;font-family:cursive;"> 
+    <h2 style="background-color: rgba(0, 0, 0, 0.26);border-radius: 5px;text-align: center;height:50px;font-family:cursive;">My Quote</h2>
+    <p>The strong bond of friendship is not always a balanced equation; friendship is not always about giving and taking in equal shares. Instead, friendship is grounded in a feeling that you know exactly who will be there for you when you need something, no matter what or when.</p>
+    <p><b>Hi,</b></p>
+    <p>Kindly login below to know something about yourself.</p>  
+  </div>
     
       <div class="container">
           <form>
             <div class="form-group col-sm-4">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              <label for="email">Username:</label>
+              <input type="username" [(ngModel)]="username" class="form-control" id="username" placeholder="Enter username" name="username">
+              <div class="container" style="font-size: 12px;">username: your name [small case]</div>
             </div>
             <div class="form-group col-sm-4">
               <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+              <input type="password"  [(ngModel)]="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+              <div class="container" style="font-size: 12px;">password: 12345 </div>
             </div>
             <div class="checkbox col-sm-4">
               <label><input type="checkbox" name="remember"> Remember me</label>
             </div>
     
             <div class="form-group col-sm-4">
-            <button type="submit" mat-raised-button style="background-color: deepskyblue" class="btn btn-default">Submit</button>
+            <button type="submit" mat-raised-button style="background-color: deepskyblue" (click)="login()" class="btn btn-default">Submit</button>
             </div>
           </form>
         </div>
