@@ -9,7 +9,7 @@
       "urls": [
         "https://ChintanMahadik.github.io/Angular-Bootstrap/favicon.ico",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/main.b0d4421ac2f581414d47.js",
+        "https://ChintanMahadik.github.io/Angular-Bootstrap/main.e6d16920841828376345.js",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js",
@@ -30,8 +30,8 @@
         "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png",
         "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.JPG",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.png"
+        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/main.jpg",
+        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.jpg"
       ],
       "patterns": []
     }
@@ -46,11 +46,11 @@
     "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.JPG": "98859ebecba0e9a465bfa3100daf6c321579c0a4",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.png": "32900eb4deddc232e4c46211d124527f4caec366",
+    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/main.jpg": "849fb7b921c66b958350d16149b67172395c542d",
+    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.jpg": "bb302197361555d2aa2ae03140e3ce03c2a11ca7",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html": "d73dd15d4c65199304bdda607e7eeb947dbcc8d6",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/main.b0d4421ac2f581414d47.js": "7dca214779863d78c2ce7c6666201b2b103d02a8",
+    "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html": "8136ebe38eb3711430b9784830c5833e1609ea1c",
+    "https://ChintanMahadik.github.io/Angular-Bootstrap/main.e6d16920841828376345.js": "1f2f7a8afc6f0fbf550c024481b5f6d454bb7906",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://ChintanMahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js": "f6f283629e7606428f6239a4b89bd4b42cc2f0ab",
