@@ -1,19 +1,19 @@
 {
   "configVersion": 1,
-  "index": "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html",
+  "index": "https://chintanmahadik.github.io/Angular-Bootstrap/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/favicon.ico",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/main.e6d16920841828376345.js",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/styles.33c777d4fc193a2ff1c7.css"
+        "https://chintanmahadik.github.io/Angular-Bootstrap/favicon.ico",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/index.html",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/main.570def4d9525be06c339.js",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/styles.04241ce4467073d315b4.css"
       ],
       "patterns": []
     },
@@ -22,39 +22,39 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-128x128.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-144x144.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-152x152.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-192x192.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-384x384.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/main.jpg",
-        "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.jpg"
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-128x128.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-144x144.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-152x152.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-192x192.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-384x384.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/img/chintan.jpg",
+        "https://chintanmahadik.github.io/Angular-Bootstrap/assets/img/main.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/main.jpg": "849fb7b921c66b958350d16149b67172395c542d",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/assets/img/profile.jpg": "bb302197361555d2aa2ae03140e3ce03c2a11ca7",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/index.html": "8136ebe38eb3711430b9784830c5833e1609ea1c",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/main.e6d16920841828376345.js": "1f2f7a8afc6f0fbf550c024481b5f6d454bb7906",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js": "f6f283629e7606428f6239a4b89bd4b42cc2f0ab",
-    "https://ChintanMahadik.github.io/Angular-Bootstrap/styles.33c777d4fc193a2ff1c7.css": "93b95b2a13a4e618aec0e851bbc1289db70555ad"
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/img/chintan.jpg": "4139de4de1718ec426fb99775c5922e77bc15162",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/assets/img/main.jpg": "849fb7b921c66b958350d16149b67172395c542d",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/index.html": "ddb96e254c831b9aec0218391838b2f609960036",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/main.570def4d9525be06c339.js": "cb9b19123ca102da89a62c95773dd71ea03ff816",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/scripts.ee7fed27c36eaa5fa8a9.js": "f6f283629e7606428f6239a4b89bd4b42cc2f0ab",
+    "https://chintanmahadik.github.io/Angular-Bootstrap/styles.04241ce4467073d315b4.css": "eb6b831b3f16e9f187915338c561e91d0b42da3e"
   },
   "navigationUrls": [
     {
