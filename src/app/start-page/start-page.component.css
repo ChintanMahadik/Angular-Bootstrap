@@ -1,0 +1,32 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.bg-image {
+     background-image: url("../../assets/img/back.png"); 
+    filter: blur(4px);
+    -webkit-filter: blur(3px);
+    height: 90%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 85%;
+    text-align:center;
+    border-radius: 5px;
+  }

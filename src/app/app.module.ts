@@ -17,7 +17,7 @@ import {MatCardModule} from '@angular/material/card';
 import { AngularWebStorageModule } from 'angular-web-storage';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
-
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +37,7 @@ import {MatListModule} from '@angular/material/list';
     AngularWebStorageModule,
     MatDividerModule,
     MatListModule,
+    AngularFontAwesomeModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
