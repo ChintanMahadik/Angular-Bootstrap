@@ -12,20 +12,27 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ProfileComponent } from './profile/profile.component';
+import { ProfileComponent, DialogOverviewExampleDialog } from './profile/profile.component';
 import {MatCardModule} from '@angular/material/card';
 import { AngularWebStorageModule } from 'angular-web-storage';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {MatDialogModule} from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     StartPageComponent,
     FooterComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    DialogOverviewExampleDialog
   ],
+  entryComponents:[DialogOverviewExampleDialog],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -38,6 +45,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     MatDividerModule,
     MatListModule,
     AngularFontAwesomeModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

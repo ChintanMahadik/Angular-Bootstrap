@@ -46,11 +46,12 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
   else if(this.username=="raj" && this.password=="raj1234")    {
     this.value={
           "name":"Raj Kamal",
-          "nick":"The open Wikipedia of Filenet",
-          "thing1":"You are supportive",
-          "thing2":"You are always helpful",
-          "thing3":"You are Kind by heart",
-          "speciality":"Jovial by nature and always keep entertaining.",
+          "nick":"The free Wikipedia of Filenet",
+          "thing1":"You have always been encouraging in my course of time. ",
+          "thing2":"When nobody is there, Raj is the one whom you can call. Not only professionally, but this man will support you anytime you need him.",
+          "thing3":"I am grateful for having you just like my brother. Nike show Bros :)",
+          "thing4":"We shared work, Gym, food, trips, talks, fun together. Everything gonna be missed for ever. I will be available for you all the time.",
+          "speciality":"The great thing about new friends is that they bring new energy to your soul.",
           "image":"./assets/img/raj.jpg"
         }
   

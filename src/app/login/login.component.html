@@ -1,8 +1,8 @@
-<div class="bg-image h-100" ></div>
+<div class="bg-image h-100" ></div> 
 
 <div class="bg-text col-md-8" >
-<div class="jumbotron " style="background-color: deepskyblue;font-family:cursive;margin-top:30px;"> 
-    <h2 style="background-color: rgba(0, 0, 0, 0.26);border-radius: 5px;text-align: center;height:50px;font-family:cursive;">My Quote</h2>
+<div class="jumbotron " style="background-color: deepskyblue;margin-top:40%;"> 
+    <h2 style="background-color: rgba(0, 0, 0, 0.26);border-radius: 5px;text-align: center;height:50px;">My Quote</h2>
     <p>The strong bond of friendship is not always a balanced equation; friendship is not always about giving and taking in equal shares. Instead, friendship is grounded in a feeling that you know exactly who will be there for you when you need something, no matter what or when.</p>
     <p><b>Hi,</b></p>
     <p>Kindly login below to know something about yourself.</p>  
@@ -10,26 +10,28 @@
     
       <div class="container">
           <form>
-            <div class="form-group col-sm-4">
-              <label for="email" style="font-family:cursive;color:white">Username:</label>
+            <div class="form-group col-sm-6">
+              <label for="email" style="color:white">Username:</label>
               <input type="username" [(ngModel)]="username" class="form-control" id="username" placeholder="Enter username" name="username">
               <div class="container" style="font-size: 12px;color:white">Username provided by chintan.</div>
             </div>
-            <div class="form-group col-sm-4">
-              <label for="pwd" style="font-family:cursive;color:white">Password:</label>
+            <div class="form-group col-sm-6">
+              <label for="pwd" style="color:white">Password:</label>
               <input type="password"  [(ngModel)]="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
               <div class="container" style="font-size: 12px;color:white">Password provided by chintan.</div>
             </div>
-            <div class="checkbox col-sm-4" style="color:white;">
+            <div class="checkbox col-sm-6" style="color:white;">
               <label><input type="checkbox" name="remember" style="color:white;"> Remember me</label>
             </div>
     
-            <div class="form-group col-sm-4">
+            <div class="form-group col-sm-6">
             <button type="submit" mat-raised-button style="background-color: deepskyblue" (click)="login()" class="btn btn-default">Submit</button>
             </div>
           </form>
         </div>
-        
+        <app-footer></app-footer>
     </div>
+
+    
 
     

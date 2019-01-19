@@ -2,35 +2,36 @@
 <div  style="padding: 10px; background-image: url('./assets/img/startbackground.jpg');">
 <mat-card class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div mat-card-avatar class="example-header-image" [ngStyle]="{'background-image':'url('+data.image+')'}"></div>
     <mat-card-title>{{data.name}}</mat-card-title>
     <mat-card-subtitle>{{data.nick}}</mat-card-subtitle>
   </mat-card-header>
   <img mat-card-image [src]="data.image">
   <mat-card-content>
-    <p style="font-family: cursive">
-      *Description in my words*
+    <p style="font-family: cursive;font-size: 20px;color: deepskyblue;font-weight: bold;">
+      PI Brothers!!
     </p>
 
     <div class="container" style="padding: 10px;">
     <mat-list>
-      <mat-list-item><p style="font-family: cursive">{{data.thing1}}</p></mat-list-item>
-      <mat-divider></mat-divider>
-      <mat-list-item><p style="font-family: cursive">{{data.thing2}}</p></mat-list-item>
-      <mat-divider></mat-divider>
-      <mat-list-item><p style="font-family: cursive">{{data.thing3}}</p></mat-list-item>
+      <mat-list-item><p style="font-family: cursive;color:indigo">{{data.thing1}}</p></mat-list-item>
+      <br><br>
+      <mat-list-item><p style="font-family: cursive;color:indigo">{{data.thing2}}</p></mat-list-item>
+      <br><br>
+      <mat-list-item><p style="font-family: cursive;color:indigo;">{{data.thing3}}</p></mat-list-item>
+      <br><br>
+      <mat-list-item><p style="font-family: cursive;color:indigo">{{data.thing4}}</p></mat-list-item>
     </mat-list>
     </div>
   
-    <div class="jumbotron" style="background-color: rgba(75, 200, 216, 0.377);">
+    <div class="jumbotron" style="background-color: rgba(75, 200, 216, 0.377);margin-top: 10px;">
       <h2 style="font-family: cursive;color: lightseagreen">{{data.speciality}}</h2>
       <h4 style="font-family: cursive;color:red; text-align: center;">Thank You!!<i class="fa fa-thumbs-up" aria-hidden="true"></i> </h4>
     </div>
 
   </mat-card-content>
   <mat-card-actions>
-    <button mat-raised-button>Feedback</button>
-    <button mat-raised-button>Contact Me</button>
+    <button mat-raised-button (click)="openDialog()">Contact Me</button>
   </mat-card-actions>
 </mat-card>
 </div>
