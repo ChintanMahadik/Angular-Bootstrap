@@ -15,7 +15,7 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit() {
    this.data=this.session.get("data");
-    console.log(this.data.name);
+    console.log(this.data);
   }
 
 }

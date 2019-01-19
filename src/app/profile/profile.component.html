@@ -1,12 +1,12 @@
 
-<div  style="padding: 10px; background-image: url('../../assets/img/startbackground.jpg');">
+<div  style="padding: 10px; background-image: url('./assets/img/startbackground.jpg');">
 <mat-card class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>{{data.name}}</mat-card-title>
     <mat-card-subtitle>{{data.nick}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image src="../../assets/img/chintan.jpg">
+  <img mat-card-image [src]="data.image">
   <mat-card-content>
     <p style="font-family: cursive">
       *Description in my words*
