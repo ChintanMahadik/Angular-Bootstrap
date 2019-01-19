@@ -362,6 +362,8 @@ MIT
 @angular/forms
 MIT
 
+@angular/material/toolbar
+
 angular-web-storage
 MIT
 MIT License
@@ -393,9 +395,7 @@ SOFTWARE.
 
 @angular/material/list
 
-@angular/material/divider
-
-@angular/material/toolbar
+@angular/material/dialog
 
 angular-font-awesome
 MIT
