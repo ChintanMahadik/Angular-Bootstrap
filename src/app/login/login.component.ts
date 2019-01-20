@@ -80,7 +80,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               "thing1":"Kuch bhi ha Chintan. Chintan paagal ho gaya hai. Akela hass raha hai.",
               "thing2":"Yaa, these were the things i have heard from you. Although we didn't talk much but still whenever we talked, we laughed terribly.",
               "thing3":"There are so many things we had together like trips, clash of clans, 8 ball pool. and ummm... health check PI too. :)",
-              "thing4":"Doreamon of filenet who tags me in his pics socially without having me in it. You will be missed for sure. Thik hai!!",
+              "thing4":"Doreamon of filenet who tags me in his pics socially without having me completely in it. You will be missed for sure. Thik hai!!",
               "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
               "image":"./assets/img/rajat.jpg",
               "description":"Gamer Brothers !!"
@@ -153,7 +153,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                         "nick":"The SRK lover and THUG",
                         "thing1":"Here we come to our new joinee of 2017. She doesnt care about anybody.",
                         "thing2":"Dare you speak about srk then you will be soon RIP. :)",
-                        "thing3":"She is very cautious about things like emails, Frank. I remember one incident where she typed and relooked her finger instead of keyboard.",
+                        "thing3":"She is very cautious about things like emails, Frank etc. I remember one incident where she typed and relooked her finger instead of keyboard.",
                         "thing4":"We have been a part of many trips, events, team stuff etc. Everthing will be missed. SRK is the best Actor of bollywood !!",
                         "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
                         "image":"./assets/img/kaveri.jpg",
