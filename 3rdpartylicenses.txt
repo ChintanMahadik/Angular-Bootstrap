@@ -362,8 +362,6 @@ MIT
 @angular/forms
 MIT
 
-@angular/material/toolbar
-
 angular-web-storage
 MIT
 MIT License
