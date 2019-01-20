@@ -153,7 +153,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                         "nick":"The SRK lover and THUG",
                         "thing1":"Here we come to our new joinee of 2017. She doesnt care about anybody.",
                         "thing2":"Dare you speak about srk then you will be soon RIP. :)",
-                        "thing3":"She is very cautious about a thing like emails, Frank. I remember one incident where she typed and relooked her finger instead of keyboard.",
+                        "thing3":"She is very cautious about things like emails, Frank. I remember one incident where she typed and relooked her finger instead of keyboard.",
                         "thing4":"We have been a part of many trips, events, team stuff etc. Everthing will be missed. SRK is the best Actor of bollywood !!",
                         "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
                         "image":"./assets/img/kaveri.jpg",
