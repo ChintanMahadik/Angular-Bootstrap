@@ -391,9 +391,7 @@ SOFTWARE.
 
 @angular/material/card
 
-@angular/material/core
-
-@angular/material/list
+@angular/material/grid-list
 
 @angular/material/dialog
 
