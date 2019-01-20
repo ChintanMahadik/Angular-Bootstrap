@@ -20,6 +20,8 @@ import {MatListModule} from '@angular/material/list';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 
 @NgModule({
@@ -47,6 +49,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AngularFontAwesomeModule,
     MatDialogModule,
     BrowserAnimationsModule,
+    MatGridListModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

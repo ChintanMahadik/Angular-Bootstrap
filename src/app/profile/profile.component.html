@@ -9,29 +9,30 @@
   <img mat-card-image [src]="data.image">
   <mat-card-content>
     <p style="font-family: cursive;font-size: 20px;color: deepskyblue;font-weight: bold;">
-      PI Brothers!!
+      {{data.description}}
     </p>
 
     <div class="container" style="padding: 10px;">
-    <mat-list>
-      <mat-list-item><p style="color:indigo">{{data.thing1}}</p></mat-list-item>
-      <br><br>
-      <mat-list-item><p style="color:indigo">{{data.thing2}}</p></mat-list-item>
-      <br><br>
-      <mat-list-item><p style="color:indigo;">{{data.thing3}}</p></mat-list-item>
-      <br><br>
-      <mat-list-item><p style="color:indigo">{{data.thing4}}</p></mat-list-item>
-    </mat-list>
+    <ul>
+      <li><p style="color:indigo">{{data.thing1}}</p></li>
+      <br>
+      <li><p style="color:indigo">{{data.thing2}}</p></li>
+      <br>
+      <li><p style="color:indigo;">{{data.thing3}}</p></li>
+      <br>
+      <li><p style="color:indigo">{{data.thing4}}</p></li>
+    </ul>
     </div>
   
-    <div class="jumbotron" style="background-color: rgba(75, 200, 216, 0.377);margin-top: 10px;">
-      <h2 style="font-family: cursive;color: lightseagreen">{{data.speciality}}</h2>
+    <div class="jumbotron" style="margin-top: 10px;background-image: url('./assets/img/quote2.jpg');background-size:cover">
+      <h2 style="font-family: cursive;color: rgb(0, 0, 0)">{{data.speciality}}</h2>
+      <h4 style="font-family: cursive;color:darkgreen; text-align: center;"><i class="fa fa-hand-spock-o" aria-hidden="true"></i> All the Best <i class="fa fa-hand-spock-o" aria-hidden="true"></i> </h4>
       <h4 style="font-family: cursive;color:red; text-align: center;">Thank You!!<i class="fa fa-thumbs-up" aria-hidden="true"></i> </h4>
     </div>
 
   </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button (click)="openDialog()">Contact Me</button>
+  <mat-card-actions style="text-align: center">
+    <button mat-raised-button (click)="openDialog()" >Contact Me</button>
   </mat-card-actions>
 </mat-card>
 </div>

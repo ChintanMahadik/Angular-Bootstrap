@@ -39,7 +39,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
         "thing2":"You are always helpful",
         "thing3":"You are Kind by heart",
         "speciality":"Jovial by nature and always keep entertaining.",
-        "image":"./assets/img/chintan.jpg"
+        "image":"./assets/img/chintan.jpg",
+        "description":"PI Brothers !!"
       }
 
   }
@@ -49,10 +50,11 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
           "nick":"The free Wikipedia of Filenet",
           "thing1":"You have always been encouraging in my course of time. ",
           "thing2":"When nobody is there, Raj is the one whom you can call. Not only professionally, but this man will support you anytime you need him.",
-          "thing3":"I am grateful for having you just like my brother. Nike show Bros :)",
+          "thing3":"I am grateful for having you just like my brother. Nike shoe Bros :)",
           "thing4":"We shared work, Gym, food, trips, talks, fun together. Everything gonna be missed for ever. I will be available for you all the time.",
-          "speciality":"The great thing about new friends is that they bring new energy to your soul.",
-          "image":"./assets/img/raj.jpg"
+          "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+          "image":"./assets/img/raj.jpg",
+          "description":"PI Brothers !!"
         }
   
     }
@@ -60,11 +62,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
       this.value={
             "name":"Vikas Kumar",
             "nick":"The Player of Filenet",
-            "thing1":"You are supportive",
-            "thing2":"You are always helpful",
-            "thing3":"You are Kind by heart",
-            "speciality":"Jovial by nature and always keep entertaining.",
-            "image":"./assets/img/vikas.jpg"
+            "thing1":"The only person I talk with in my cubicle.",
+            "thing2":"Karan-Arjun to be specific. We have spent most of the time together watching videos, jokes, memes etc and just Laughing and giggling.",
+            "thing3":"Yes, I liked the fun we had being cubicle partners. Selfie bro :).",
+            "thing4":"We have not only shared cubicle but also memories like united 21, panchgani, camping. Indeed gonna be missed. Thik hai!!",
+            "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+            "image":"./assets/img/vikas.jpg",
+            "description":"Very Social Brothers !!"
           }
     
       }
@@ -72,12 +76,14 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
       else if(this.username=="rajat" && this.password=="rajat1234")    {
         this.value={
               "name":"Rajat Sahu",
-              "nick":"The Doreamon of Filenet",
-              "thing1":"You are supportive",
-              "thing2":"You are always helpful",
-              "thing3":"You are Kind by heart",
-              "speciality":"Jovial by nature and always keep entertaining.",
-              "image":"./assets/img/rajat.jpg"
+              "nick":"The Gamer of Filenet",
+              "thing1":"Kuch bhi ha Chintan. Chintan paagal ho gaya hai. Akela hass raha hai.",
+              "thing2":"Yaa, these were the things i have heard from you. Although we didn't talk much but still whenever we talked, we laughed terribly.",
+              "thing3":"There are so many things we had together like trips, clash of clans, 8 ball pool. and ummm... health check PI too. :)",
+              "thing4":"Doreamon of filenet who tags me in his pics socially without having me in it. You will be missed for sure. Thik hai!!",
+              "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+              "image":"./assets/img/rajat.jpg",
+              "description":"Gamer Brothers !!"
             }
       
         }
@@ -85,11 +91,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
           this.value={
                 "name":"Anurag Sharma",
                 "nick":"The Sir of Everybody",
-                "thing1":"You are supportive",
-                "thing2":"You are always helpful",
-                "thing3":"You are Kind by heart",
-                "speciality":"Jovial by nature and always keep entertaining.",
-                "image":"./assets/img/anurag.jpg"
+                "thing1":"You have always been with me from my start.",
+                "thing2":"Whenever i needed any help for work, the first person to be thought of is you.",
+                "thing3":"I have never created any Change Request from my own till today. Each and every small thing such as fun at your desk, teasing, gym, marine drive, trips etc gonna be missed",
+                "thing4":"You were Sir, You are Sir and Will remain Sir forever. Such a kind personality.",
+                "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                "image":"./assets/img/anurag.jpg",
+                "description":"Bhak Saale Chintan !!"
               }
         
           }
@@ -98,11 +106,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             this.value={
                   "name":"Supriya Rokade",
                   "nick":"The Clarity girl of Filenet",
-                  "thing1":"You are supportive",
-                  "thing2":"You are always helpful",
-                  "thing3":"You are Kind by heart",
-                  "speciality":"Jovial by nature and always keep entertaining.",
-                  "image":"./assets/img/supriya.jpg"
+                  "thing1":"The most busy girl of our team. She can skip meals for her work.",
+                  "thing2":"A lot to learn from her. Ambitious, Proactive, A Good teacher, Mentor, offcourse clarity spoc",
+                  "thing3":"Working with her will make you learn many good things. Keep calm and work on.",
+                  "thing4":"We have been part of various team events, trips, lunch, snacks etc. and Everything gonna be missed. :)",
+                  "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                  "image":"./assets/img/supriya.jpg",
+                  "description":"DPA Girl !!"
                 }
           
             }   
@@ -111,11 +121,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               this.value={
                     "name":"Naina Dutta",
                     "nick":"The Blazeds Girl of Filenet",
-                    "thing1":"You are supportive",
-                    "thing2":"You are always helpful",
-                    "thing3":"You are Kind by heart",
-                    "speciality":"Jovial by nature and always keep entertaining.",
-                    "image":"./assets/img/naina.jpg"
+                    "thing1":"Adventurous girl i have ever met. A strong, independent girl",
+                    "thing2":"My Life's first project was with her i.e. CR10 - UA Damage. I was very excited to work and eventually learnt many things from her during the course of task. ",
+                    "thing3":"She is often quite but her laughter can destroy silence.",
+                    "thing4":"She is my neighbour and we share same desk phone :). Everything gonna be missed. :)",
+                    "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                    "image":"./assets/img/naina.jpg",
+                    "description":"Party Animal !!"
                   }
             
               }
@@ -124,11 +136,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 this.value={
                       "name":"Prajakta Borude",
                       "nick":"The Zoned Out girl of Mankind",
-                      "thing1":"You are supportive",
-                      "thing2":"You are always helpful",
-                      "thing3":"You are Kind by heart",
-                      "speciality":"Jovial by nature and always keep entertaining.",
-                      "image":"./assets/img/prajakta.jpg"
+                      "thing1":"Here we come to our new joinee of 2017. She is little Alag.",
+                      "thing2":"When people talk to her, she talk to gods [I mean she gets zone out easily.] and later she will ask 'Kya bol rahe the aap?'. I am like Nothing!!",
+                      "thing3":"Very much soft spoken, patient, obedient girl. Although we worked together for a less time, It was good working with you.",
+                      "thing4":"Yes, we were a part of various trips, events etc. and all these small things will be missed. Jakta Devi cha vijay aso !! ",
+                      "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                      "image":"./assets/img/prajakta.jpg",
+                      "description":"Oh Please !!"
                     }
               
                 }
@@ -137,11 +151,13 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                   this.value={
                         "name":"Kaveri Andhale",
                         "nick":"The SRK lover and THUG",
-                        "thing1":"You are supportive",
-                        "thing2":"You are always helpful",
-                        "thing3":"You are Kind by heart",
-                        "speciality":"Jovial by nature and always keep entertaining.",
-                        "image":"./assets/img/kaveri.jpg"
+                        "thing1":"Here we come to our new joinee of 2017. She doesnt care about anybody.",
+                        "thing2":"Dare you speak about srk then you will be soon RIP. :)",
+                        "thing3":"She is very cautious about many things such as emails. I remember one incident where she typed and relooked her finger instead of keyboard.",
+                        "thing4":"We have been a part of many trips, events, team stuff etc. Everthing will be missed. SRK is the best Actor of bollywood !!",
+                        "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                        "image":"./assets/img/kaveri.jpg",
+                        "description":"khhhhhhh Kaveri !!"
                       }
                 
                   }  
@@ -149,37 +165,43 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
       else if(this.username=="saumya" && this.password=="saumya1234")    { 
           this.value={
               "name":"Saumya Singh",
-              "nick":"The Silent Heels breaker",
-              "thing1":"You are supportive",
-              "thing2":"You are always helpful",
-              "thing3":"You are Kind by heart",
-              "speciality":"Jovial by nature and always keep entertaining.",
-              "image":"./assets/img/saumya.jpg"
-                        }
+              "nick":"The Silent Girl",
+              "thing1":"For any Maintenance assistance contact her.",
+              "thing2":"She is quite and takes work very seriously. Although we havent worked together much, but it was a good experience being in a team.",
+              "thing3":"It seems you are a very passionate towards exploring and learning new things.",
+              "thing4":"We have been a part of many trips, events, team stuff etc. It will be missed indeed.",
+              "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+              "image":"./assets/img/saumya.jpg",
+              "description":"Self Learner !!"
+              }
                   
           }
           else if(this.username=="ankit" && this.password=="ankit1234")    { 
             this.value={
                 "name":"Ankit Pandey",
                 "nick":"The Foodie of Filenet and Investment advisor",
-                "thing1":"You are supportive",
-                "thing2":"You are always helpful",
-                "thing3":"You are Kind by heart",
-                "speciality":"Jovial by nature and always keep entertaining.",
-                "image":"./assets/img/ankit.jpg"
-                          }
+                "thing1":"I think you should have gone for Banking jobs.",
+                "thing2":"The person who not only have knowledge about banking, investments etc but also have adviced many of us.",
+                "thing3":"There is not much of difference in our experience. We were like brothers and tickle friends throughout. All the best for your higher studies bro.",
+                "thing4":"We have been part of Team events, parties etc and have enjoyed alot. Surely these things will be missed.",
+                "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                "image":"./assets/img/ankit.jpg",
+                "description":"Paisa !! :)"
+            }
                     
             }
           else if(this.username=="fresher" && this.password=="fresher1234")    { 
             this.value={
-                "name":"New Bloods",
+                "name":"New Shining Stars",
                 "nick":"Keep Shining",
-                "thing1":"You are supportive",
-                "thing2":"You are always helpful",
-                "thing3":"You are Kind by heart",
-                "speciality":"Jovial by nature and always keep entertaining.",
-                "image":"./assets/img/main.jpg"
-                          }
+                "thing1":"Its your time now.",
+                "thing2":"Never stop doing what you like.",
+                "thing3":"Explore new things and excel.",
+                "thing4":"Best of luck.",
+                "speciality":"YOU DON’T HAVE TO BE GREAT TO START, BUT YOU HAVE TO START TO BE GREAT",
+                "image":"./assets/img/main.jpg",
+                "description":"Enjoy !! :)"
+              }
                     
             }    
       this.session.set("data",this.value,1,'h');
