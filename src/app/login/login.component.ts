@@ -93,7 +93,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 "nick":"The Sir of Everybody",
                 "thing1":"You have always been with me from my start.",
                 "thing2":"Whenever i needed any help for work, the first person to be thought of is you.",
-                "thing3":"I have never created any Change Request from my own till today. Each and every small thing such as fun at your desk, teasing, gym, marine drive, trips etc gonna be missed",
+                "thing3":"I have never created any Change Request of my own till today. Each and every small thing such as fun at your desk, teasing, gym, marine drive, trips etc gonna be missed",
                 "thing4":"You were Sir, You are Sir and Will remain Sir forever. Such a kind personality.",
                 "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
                 "image":"./assets/img/anurag.jpg",
@@ -107,7 +107,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                   "name":"Supriya Rokade",
                   "nick":"The Clarity girl of Filenet",
                   "thing1":"The most busy girl of our team. She can skip meals for her work.",
-                  "thing2":"A lot to learn from her. Ambitious, Proactive, A Good teacher, Mentor, offcourse clarity spoc",
+                  "thing2":"A lot to learn from her. Ambitious, Proactive, A Good teacher, Mentor, offcourse our clarity spoc.",
                   "thing3":"Working with her will make you learn many good things. Keep calm and work on.",
                   "thing4":"We have been part of various team events, trips, lunch, snacks etc. and Everything gonna be missed. :)",
                   "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
@@ -186,7 +186,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 "thing4":"We have been part of Team events, parties etc and have enjoyed alot. Surely these things will be missed.",
                 "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
                 "image":"./assets/img/ankit.jpg",
-                "description":"Paisa !! :)"
+                "description":"Tujhe last warning de raha hoon !! :)"
             }
                     
             }
