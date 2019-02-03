@@ -106,7 +106,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             this.value={
                   "name":"Supriya Rokade",
                   "nick":"The Clarity girl of Filenet",
-                  "thing1":"The most busy girl of our team. She can skip meals for her work.",
+                  "thing1":"The busiest girl of our team. She can skip meals for her work.",
                   "thing2":"A lot to learn from her. Ambitious, Proactive, A Good teacher, Mentor, offcourse our clarity spoc.",
                   "thing3":"Working with her will make you learn many good things. Keep calm and work on.",
                   "thing4":"We have been part of various team events, trips, lunch, snacks etc. and Everything gonna be missed. :)",
@@ -153,7 +153,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                         "nick":"The SRK lover and THUG",
                         "thing1":"Here we come to our new joinee of 2017. She doesnt care about anybody.",
                         "thing2":"Dare you speak about srk then you will be soon RIP. :)",
-                        "thing3":"She is very cautious about things like emails, Frank etc. I remember one incident where she typed and relooked her finger instead of keyboard.",
+                        "thing3":"She is very much cautious about things like emails, Frank etc. I remember one incident where she typed and relooked her finger instead of keyboard.",
                         "thing4":"We have been a part of many trips, events, team stuff etc. Everthing will be missed. SRK is the best Actor of bollywood !!",
                         "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
                         "image":"./assets/img/kaveri.jpg",
@@ -190,13 +190,27 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             }
                     
             }
+            else if(this.username=="rohit" && this.password=="rohit1234")    { 
+              this.value={
+                  "name":"Rohit Singh",
+                  "nick":"Player",
+                  "thing1":"I have not much interacted with you, yet a very nice person to talk with.",
+                  "thing2":"He is not seen on his desk but can be frequently observed at Gymkhana or Gym.",
+                  "thing3":"Nocturnal PUBG player.",
+                  "thing4":"We have been part of Team events and have enjoyed alot.",
+                  "speciality":"Bhale Hi Apne Dost Kam Hai, Par Jitne Bhi Hai…Saare Parmanu Bum Hai.",
+                  "image":"./assets/img/rohit.png",
+                  "description":"PUBG khelega kya ?"
+              }
+                      
+              }
           else if(this.username=="fresher" && this.password=="fresher1234")    { 
             this.value={
                 "name":"New Shining Stars",
                 "nick":"Keep Shining",
                 "thing1":"Its your time now.",
                 "thing2":"Never stop doing what you like.",
-                "thing3":"Explore new things and excel.",
+                "thing3":"Explore new things and excel your skills.",
                 "thing4":"Best of luck.",
                 "speciality":"YOU DON’T HAVE TO BE GREAT TO START, BUT YOU HAVE TO START TO BE GREAT",
                 "image":"./assets/img/main.jpg",
