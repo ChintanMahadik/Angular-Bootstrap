@@ -393,6 +393,8 @@ SOFTWARE.
 
 @angular/material/dialog
 
+@angular/material/snack-bar
+
 angular-font-awesome
 MIT
 The MIT License
