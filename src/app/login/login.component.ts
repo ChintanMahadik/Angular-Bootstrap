@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { SessionStorageService } from 'angular-web-storage';
+import {MatSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-login',
@@ -15,7 +16,7 @@ export class LoginComponent implements OnInit {
   obj:any;
   value:any;
   flag:boolean;
-  constructor(private http:HttpClient, private router:Router,private session:SessionStorageService) {
+  constructor(private http:HttpClient, private router:Router,private session:SessionStorageService,private snackBar: MatSnackBar) {
     this.flag=false;
    }
 
@@ -266,11 +267,25 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             
          else{
 
-            alert("Invalid User !");
+          this.openSnackBar();
             }
-     
-         
+  }
 
+  openSnackBar() {
+    this.snackBar.openFromComponent(SnackbarComponent, {
+      duration: 500,
+    });
   }
 
 }
+
+@Component({
+  selector: 'snack-bar-component-example-snack',
+  templateUrl: 'snack-bar-component-example-snack.html',
+  styles: [`
+    .example-pizza-party {
+      color:deepskyblue;
+    }
+  `],
+})
+export class SnackbarComponent {}

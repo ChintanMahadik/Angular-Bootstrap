@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent, SnackbarComponent } from './login/login.component';
 import {MatButtonModule} from '@angular/material/button';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -21,6 +21,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 
@@ -31,9 +32,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     FooterComponent,
     LoginComponent,
     ProfileComponent,
-    DialogOverviewExampleDialog
+    DialogOverviewExampleDialog,
+    SnackbarComponent
   ],
-  entryComponents:[DialogOverviewExampleDialog],
+  entryComponents:[DialogOverviewExampleDialog,SnackbarComponent],
 
   imports: [
     BrowserModule,
@@ -50,6 +52,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatDialogModule,
     BrowserAnimationsModule,
     MatGridListModule,
+    MatSnackBarModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
