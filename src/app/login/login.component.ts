@@ -14,7 +14,10 @@ export class LoginComponent implements OnInit {
   password:string;
   obj:any;
   value:any;
-  constructor(private http:HttpClient, private router:Router,private session:SessionStorageService) { }
+  flag:boolean;
+  constructor(private http:HttpClient, private router:Router,private session:SessionStorageService) {
+    this.flag=false;
+   }
 
   ngOnInit() {
   }
@@ -43,6 +46,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
         "description":"PI Brothers !!"
       }
 
+      this.session.set("data",this.value,1,'h');
+      this.router.navigate(['/profile']);
   }
   else if(this.username=="raj" && this.password=="raj1234")    {
     this.value={
@@ -56,6 +61,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
           "image":"./assets/img/raj.jpg",
           "description":"PI Brothers !!"
         }
+        this.session.set("data",this.value,1,'h');
+        this.router.navigate(['/profile']);
   
     }
     else if(this.username=="vikas" && this.password=="vikas1234")    { 
@@ -70,6 +77,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             "image":"./assets/img/vikas.jpg",
             "description":"Very Social Brothers !!"
           }
+          this.session.set("data",this.value,1,'h');
+          this.router.navigate(['/profile']);
     
       }
 
@@ -85,6 +94,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               "image":"./assets/img/rajat.jpg",
               "description":"Gamer Brothers !!"
             }
+            this.session.set("data",this.value,1,'h');
+            this.router.navigate(['/profile']);
       
         }
         else if(this.username=="anurag" && this.password=="anurag1234")    {
@@ -99,6 +110,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 "image":"./assets/img/anurag.jpg",
                 "description":"Bhak Saale Chintan !!"
               }
+              this.session.set("data",this.value,1,'h');
+              this.router.navigate(['/profile']);
         
           }
           
@@ -114,6 +127,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                   "image":"./assets/img/supriya.jpg",
                   "description":"DPA Girl !!"
                 }
+                this.session.set("data",this.value,1,'h');
+                this.router.navigate(['/profile']);
           
             }   
 
@@ -129,6 +144,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                     "image":"./assets/img/naina.jpg",
                     "description":"Party Animal !!"
                   }
+                  this.session.set("data",this.value,1,'h');
+                  this.router.navigate(['/profile']);
             
               }
               
@@ -144,6 +161,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                       "image":"./assets/img/prajakta.jpg",
                       "description":"Oh Please !!"
                     }
+                    this.session.set("data",this.value,1,'h');
+                    this.router.navigate(['/profile']);
               
                 }
                 
@@ -159,6 +178,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                         "image":"./assets/img/kaveri.jpg",
                         "description":"khhh khhhh Kaveri !!"
                       }
+                      this.session.set("data",this.value,1,'h');
+                      this.router.navigate(['/profile']);
                 
                   }  
                   
@@ -174,6 +195,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               "image":"./assets/img/saumya.jpg",
               "description":"Self Learner !!"
               }
+              this.session.set("data",this.value,1,'h');
+              this.router.navigate(['/profile']);
                   
           }
           else if(this.username=="ankit" && this.password=="ankit1234")    { 
@@ -188,6 +211,8 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 "image":"./assets/img/ankit.jpg",
                 "description":"Tujhe last warning de raha hoon !! :)"
             }
+            this.session.set("data",this.value,1,'h');
+            this.router.navigate(['/profile']);
                     
             }
             else if(this.username=="rohit" && this.password=="rohit1234")    { 
@@ -202,6 +227,24 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                   "image":"./assets/img/rohit.png",
                   "description":"PUBG khelega kya ?"
               }
+              this.session.set("data",this.value,1,'h');
+              this.router.navigate(['/profile']);
+                      
+              }
+               else if(this.username=="anagha" && this.password=="anagha1234")    { 
+              this.value={
+                  "name":"Anagha Anande",
+                  "nick":"Ma'am",
+                  "thing1":"You are very kind by nature and a sweet personality overall.",
+                  "thing2":"You have always been encouraging and Helpful Throughout.",
+                  "thing3":"There are many things to learn from you. ",
+                  "thing4":"Although you have always been telling us that not to call ' Ma'am ' but still I kept calling you ma'am only :).",
+                  "speciality":"Leadership is the art of giving people a platform for spreading ideas that work.",
+                  "image":"./assets/img/anagha.jpg",
+                  "description":"Best Manager Ever!!"
+              }
+              this.session.set("data",this.value,1,'h');
+              this.router.navigate(['/profile']);
                       
               }
           else if(this.username=="fresher" && this.password=="fresher1234")    { 
@@ -216,15 +259,18 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 "image":"./assets/img/main.jpg",
                 "description":"Enjoy !! :)"
               }
+              this.session.set("data",this.value,1,'h');
+              this.router.navigate(['/profile']);
                     
             }   
             
          else{
-            alert("Aree jara dekh ke Credentials daal !");
+
+            alert("Invalid User !");
             }
-      this.session.set("data",this.value,1,'h');
-    
-     this.router.navigate(['/profile']);
+     
+         
+
   }
 
 }
