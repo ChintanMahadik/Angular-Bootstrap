@@ -35,22 +35,7 @@ export class LoginComponent implements OnInit {
     // });
 
 //to get values from service based on username and password
-if(this.username=="chintan" && this.password=="chintan1234")    {
-  this.value={
-        "name":this.username,
-        "nick":"chintya",
-        "thing1":"You are supportive",
-        "thing2":"You are always helpful",
-        "thing3":"You are Kind by heart",
-        "speciality":"Jovial by nature and always keep entertaining.",
-        "image":"./assets/img/chintan.jpg",
-        "description":"PI Brothers !!"
-      }
-
-      this.session.set("data",this.value,1,'h');
-      this.router.navigate(['/profile']);
-  }
-  else if(this.username=="raj" && this.password=="raj1234")    {
+if(this.username=="raj" && this.password=="raj7475")    {
     this.value={
           "name":"Raj Kamal",
           "nick":"The free Wikipedia of Filenet",
@@ -66,7 +51,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
         this.router.navigate(['/profile']);
   
     }
-    else if(this.username=="vikas" && this.password=="vikas1234")    { 
+    else if(this.username=="vikas" && this.password=="vikas8768")    { 
       this.value={
             "name":"Vikas Kumar",
             "nick":"The Player of Filenet",
@@ -83,7 +68,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
     
       }
 
-      else if(this.username=="rajat" && this.password=="rajat1234")    {
+      else if(this.username=="rajat" && this.password=="rajat9642")    {
         this.value={
               "name":"Rajat Sahu",
               "nick":"The Gamer of Filenet",
@@ -99,7 +84,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             this.router.navigate(['/profile']);
       
         }
-        else if(this.username=="anurag" && this.password=="anurag1234")    {
+        else if(this.username=="anurag" && this.password=="anurag9774")    {
           this.value={
                 "name":"Anurag Sharma",
                 "nick":"The Sir of Everybody",
@@ -116,7 +101,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
         
           }
           
-          else if(this.username=="supriya" && this.password=="supriya1234")    {
+          else if(this.username=="supriya" && this.password=="supriya3792")    {
             this.value={
                   "name":"Supriya Rokade",
                   "nick":"The Clarity girl of Filenet",
@@ -133,7 +118,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
           
             }   
 
-            else if(this.username=="naina" && this.password=="naina1234")    { 
+            else if(this.username=="naina" && this.password=="naina9853")    { 
               this.value={
                     "name":"Naina Dutta",
                     "nick":"The Blazeds Girl of Filenet",
@@ -150,7 +135,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             
               }
               
-              else if(this.username=="prajakta" && this.password=="prajakta1234")    { 
+              else if(this.username=="prajakta" && this.password=="prajakta2157")    { 
                 this.value={
                       "name":"Prajakta Borude",
                       "nick":"The Zoned Out girl of Mankind",
@@ -167,7 +152,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               
                 }
                 
-                else if(this.username=="kaveri" && this.password=="kaveri1234")    { 
+                else if(this.username=="kaveri" && this.password=="kaveri9842")    { 
                   this.value={
                         "name":"Kaveri Andhale",
                         "nick":"The SRK lover and THUG",
@@ -184,7 +169,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
                 
                   }  
                   
-      else if(this.username=="saumya" && this.password=="saumya1234")    { 
+      else if(this.username=="saumya" && this.password=="saumya6523")    { 
           this.value={
               "name":"Saumya Singh",
               "nick":"The Silent Girl",
@@ -200,7 +185,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               this.router.navigate(['/profile']);
                   
           }
-          else if(this.username=="ankit" && this.password=="ankit1234")    { 
+          else if(this.username=="ankit" && this.password=="ankit1945")    { 
             this.value={
                 "name":"Ankit Pandey",
                 "nick":"The Foodie of Filenet and Investment advisor",
@@ -216,7 +201,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
             this.router.navigate(['/profile']);
                     
             }
-            else if(this.username=="rohit" && this.password=="rohit1234")    { 
+            else if(this.username=="rohit" && this.password=="rohit7453")    { 
               this.value={
                   "name":"Rohit Singh",
                   "nick":"Player",
@@ -232,7 +217,7 @@ if(this.username=="chintan" && this.password=="chintan1234")    {
               this.router.navigate(['/profile']);
                       
               }
-               else if(this.username=="anagha" && this.password=="anagha1234")    { 
+               else if(this.username=="anagha" && this.password=="anagha0000")    { 
               this.value={
                   "name":"Anagha Anande",
                   "nick":"Ma'am",
